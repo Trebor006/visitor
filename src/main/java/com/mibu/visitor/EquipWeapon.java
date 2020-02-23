@@ -5,13 +5,13 @@ import java.util.List;
 public class EquipWeapon implements WeaponSelector {
 
   @Override
-  public void setWeapon(Wizard m) {
-    m.setWeapon("Varita Mágica");
+  public void setWeapon(Wizard wizard) {
+    wizard.setWeapon("Varita Mágica");
   }
 
   @Override
-  public void setWeapon(Warrior g) {
-    g.setWeapon("Espada");
+  public void setWeapon(Warrior warrior) {
+    warrior.setWeapon("Espada");
   }
 
   @Override

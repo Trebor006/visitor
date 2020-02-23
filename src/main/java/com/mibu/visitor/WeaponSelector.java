@@ -3,9 +3,9 @@ package com.mibu.visitor;
 import java.util.List;
 
 public interface WeaponSelector {
-  void setWeapon(Wizard m);
+  void setWeapon(Wizard wizard);
 
-  void setWeapon(Warrior g);
+  void setWeapon(Warrior warrior);
 
   void setWeapon(Orc orc);
 

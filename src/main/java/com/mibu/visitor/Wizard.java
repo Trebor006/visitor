@@ -1,20 +1,12 @@
 package com.mibu.visitor;
 
-public class Wizard implements Weaponizable {
-  private String weapon = "";
+public class Wizard extends Character {
 
-  public Wizard() {}
+    public Wizard() {
+    }
 
-  public String getWeapon() {
-    return this.weapon;
-  }
-
-  public void setWeapon(String weapon) {
-    this.weapon = weapon;
-  }
-
-  @Override
-  public void weaponize(WeaponSelector weaponSelector) {
-    weaponSelector.setWeapon(this);
-  }
+    @Override
+    public void weaponize(WeaponSelector weaponSelector) {
+        weaponSelector.setWeapon(this);
+    }
 }

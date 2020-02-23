@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.mibu.visitor.Orc</OriginalElement>
+  <nodes>
+    <node x="268.0" y="0.0">com.mibu.visitor.Weaponizable</node>
+    <node x="0.0" y="344.0">com.mibu.visitor.EquipWeapon</node>
+    <node x="0.0" y="243.0">com.mibu.visitor.WeaponSelector</node>
+    <node x="0.0" y="101.0">com.mibu.visitor.Orc</node>
+    <node x="536.0" y="101.0">com.mibu.visitor.Wizard</node>
+    <node x="268.0" y="101.0">com.mibu.visitor.Warrior</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.mibu.visitor.Wizard" target="com.mibu.visitor.Weaponizable">
+      <point x="0.0" y="-48.5" />
+      <point x="660.0" y="76.0" />
+      <point x="474.6666666666667" y="76.0" />
+      <point x="82.66666666666669" y="25.5" />
+    </edge>
+    <edge source="com.mibu.visitor.EquipWeapon" target="com.mibu.visitor.WeaponSelector">
+      <point x="0.0" y="-25.5" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="com.mibu.visitor.Warrior" target="com.mibu.visitor.Weaponizable">
+      <point x="0.0" y="-48.5" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="com.mibu.visitor.Orc" target="com.mibu.visitor.Weaponizable">
+      <point x="0.0" y="-48.5" />
+      <point x="124.0" y="76.0" />
+      <point x="309.3333333333333" y="76.0" />
+      <point x="-82.66666666666669" y="25.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="139.5" y="130.5" />
+  <SelectedNodes>
+    <node>com.mibu.visitor.Orc</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
